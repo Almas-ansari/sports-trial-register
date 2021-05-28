@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+<h1 class="center" >You are registered</h1>
+<br>
+<h2 class="center" >Follow code of condoct</h2>
+    <ul class="center" >
+    <li>
+        Play by the rules.
+    </li>
+    <li>
+        Never argue with an official. If you disagree, have your captain approach the official during a break or after the
+    competition.
+    </li>
+    <li>
+    Control your temper. Verbal abuse of officials and sledging other players, deliberately distracting or provoking an
+    opponent are not acceptable or permitted behaviors in any sport.
+    </li>
+    </ul>
+<table border="1" id="customers" > 
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Sport</th>
+        </tr>
+        <tbody>
+            {% for r in l %}
+            <tr>
+                <td>{{ r.name }}</td>
+                <td>{{r.sport }}</td>
+            </tr>
+            {% endfor %}
+            
+        </tbody>
+    </thead>
+</table>
+
+{%endblock%}
