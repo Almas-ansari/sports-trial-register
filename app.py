@@ -29,6 +29,10 @@ def done():
     return render_template("added.html",l=l)
 
 
+if __name__== "__main__":
+    app.run()
+
+
 
 
 
