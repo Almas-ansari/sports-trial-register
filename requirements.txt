@@ -1,0 +1,10 @@
+argon2-cffi==20.1.0
+cs50==6.0.4
+docker==5.0.0
+Flask==1.1.2
+Flask-SQLAlchemy==2.5.1
+gunicorn==20.1.0
+Jinja2==2.11.2
+Pillow==7.1.2
+sql==0.4.0
+
